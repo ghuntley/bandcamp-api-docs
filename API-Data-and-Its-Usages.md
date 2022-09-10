@@ -10,7 +10,7 @@ As a warning, this page shouldn't be relied upon when parsing and deserializing 
 
 As mentioned in [API Endpoints](https://github.com/har-nick/bandcamp-api-docs/wiki/API-Endpoints), the Summary endpoint contains basic information on your account and the items in your library: At the top-level, this includes your fan (user) ID, your username, and a list of item data objects.
 
-The output data is used when contacting the Item endpoint, but I also use this data as a way to check if cached data is out of date. The reason for this is because the Summary output data contains _all_ items in your library. If you hide an item in your library [like so](https://raw.githubusercontent.com/har-nick/bandcamp-api-docs/assets/hide-album-example.png), it will still show in the output data. This is not the case for the Item endpoint.
+The output data is used when contacting the Item endpoint, but I also use this data as a way to check if cached data is out of date. The reason for this is because the Summary output data contains _all_ items in your library. If you hide an item in your library [like so](https://raw.githubusercontent.com/har-nick/bandcamp-api-docs/main/assets/hide-album-example.png), it will still show in the output data. This is not the case for the Item endpoint.
 
 ### Item Endpoint
 
