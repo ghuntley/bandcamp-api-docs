@@ -2,15 +2,15 @@
 
 This page will cover some of the output data of each endpoint, including variations due to differing data in each item type.
 
-As a warning, this page shouldn't be relied upon when parsing and deserializing data. You'll find a comprehensive list of data types and adapted variable names by checking the dto data classes used in Troupetent, under `com/harnick/troupetent/data/remote/bandcamp/dto`.
+As a warning, this page shouldn't be relied upon when parsing and deserializing data. While I haven't experience it myself over around a year, names and their values' datatypes can obviously be changed at any time.
 
 ## Endpoint Data
 
 ### Summary Endpoint
 
-As mentioned in [API Endpoints](https://github.com/har-nick/troupetent/wiki/API-Endpoints), the Summary endpoint contains basic information on your account and the items in your library: At the top-level, this includes your fan (user) ID, your username, and a list of item data objects.
+As mentioned in [API Endpoints](https://github.com/har-nick/bandcamp-api-docs/wiki/API-Endpoints), the Summary endpoint contains basic information on your account and the items in your library: At the top-level, this includes your fan (user) ID, your username, and a list of item data objects.
 
-The output data is used when contacting the Item endpoint, but Troupetent also uses this data as a way to check if cached data is out of date. The reason for this is because the Summary output data contains _all_ items in your library. If you hide an item in your library [like so](https://raw.githubusercontent.com/har-nick/troupetent/wiki-assets/hide-album-example.png), it will still show in the output data. This is not the case for the Item endpoint.
+The output data is used when contacting the Item endpoint, but I also use this data as a way to check if cached data is out of date. The reason for this is because the Summary output data contains _all_ items in your library. If you hide an item in your library [like so](https://raw.githubusercontent.com/har-nick/bandcamp-api-docs/assets/hide-album-example.png), it will still show in the output data. This is not the case for the Item endpoint.
 
 ### Item Endpoint
 
