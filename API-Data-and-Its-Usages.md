@@ -38,7 +38,7 @@ Just some data I got hung up on and thought might be useful putting down with so
 
 `redownload_urls`
 
-* The URLs aren't direct. They lead to webpages forcing you to select your desired download format. See [https://github.com/har-nick/bandcamp-api-docs/wiki/Downloading-Items](Download Items).
+* The URLs aren't direct. They lead to webpages forcing you to select your desired download format. See [Downloading Items](https://github.com/har-nick/bandcamp-api-docs/wiki/Downloading-Items).
 * Every key in the Map is prefixed with "p" for package, even other Item types. Unsure why. I just drop the prefix when handling that data.
 * _Seems_ to be ordered by the date your purchased them? Unsure. Haven't checked properly.
 
