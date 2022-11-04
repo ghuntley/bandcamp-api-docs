@@ -26,3 +26,5 @@ In ascending order of relative size:
 "Consumer" use is a misnomer. It depends entirely on the preference of who's downloading the files.
 
 A sane default setting would be MP3-V0, presuming it's encoded losslessly from the master file. Factoring in MP3's [Bit Reservoir](https://wiki.hydrogenaud.io/index.php?title=Bit_reservoir) quirks, you _**COULD**_ have a higher quality track than with MP3 320.
+
+API representation should be used when [downloading items](https://github.com/har-nick/bandcamp-api-docs/wiki/Downloading-Items#the-breakdown).
