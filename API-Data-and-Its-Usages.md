@@ -2,7 +2,9 @@
 
 This page will cover some of the output data of each endpoint, including variations due to differing data in each item type.
 
-As a warning, this page shouldn't be relied upon when parsing and deserializing data. While I haven't experience it myself over around a year, names and their values' datatypes can obviously be changed at any time.
+As a warning, this page shouldn't be relied upon when parsing and deserializing data. While I haven't experienced it myself over around a year, names and their values' datatypes can obviously be changed at any time.
+
+For a Kotlin representation, take a look at [Troupetent's DTO files](https://github.com/har-nick/troupetent/tree/main/app/src/main/java/com/harnick/troupetent/data/remote/bandcamp/dto).
 
 ## Endpoint Data
 
