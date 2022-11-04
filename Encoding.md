@@ -10,16 +10,16 @@ There are (as of the time of publishing) 8 available encoding formats from Bandc
 
 In ascending order of relative size:
 
-| Encoding |           Full Name           | Open Source | Lossless |
-|:--------:|:-----------------------------:|:-----------:|:--------:|
-|    AAC   |     Advanced Audio Coding     |      ❌      |     ✅    |
-|    OGG   |           Ogg Vorbis          |      ✅      |     ❌    |
-|  MP3-V0  |                               |      ✅      |     ❌    |
-|  MP3 320 |                               |      ✅      |     ❌    |
-|   FLAC   |   Free Lossless Audio Codec   |      ✅      |     ✅    |
-|   ALAC   |   Apple Lossless Audio Codec  |      ✅      |     ✅    |
-|    WAV   |   Waveform Audio File Format  |      ❌      |     ✅    |
-|   AIFF   | Audio Interchange File Format |      ❌      |     ✅    |
+| Encoding |           Full Name           | Open Source | Lossless | API Representation |
+|:--------:|:-----------------------------:|:-----------:|:--------:|:------------------:|
+|    AAC   |     Advanced Audio Coding     |      ❌      |     ✅    |      `aac-hi`      |
+|    OGG   |           Ogg Vorbis          |      ✅      |     ❌    |      `vorbis`      |
+|  MP3-V0  |                               |      ✅      |     ❌    |      `mp3-v0`      |
+|  MP3 320 |                               |      ✅      |     ❌    |      `mp3-320`     |
+|   FLAC   |   Free Lossless Audio Codec   |      ✅      |     ✅    |       `flac`       |
+|   ALAC   |   Apple Lossless Audio Codec  |      ✅      |     ✅    |       `alac`       |
+|    WAV   |   Waveform Audio File Format  |      ❌      |     ✅    |        `wav`       |
+|   AIFF   | Audio Interchange File Format |      ❌      |     ✅    |   `aiff-lossless`  |
 
 ## Usage
 
