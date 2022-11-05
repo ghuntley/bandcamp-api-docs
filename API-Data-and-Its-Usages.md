@@ -16,7 +16,7 @@ The output data is used when contacting the Item endpoint, but I also use this d
 
 ### Item Endpoint
 
-Here's the fun stuff. The Item endpoint contains multiple data arrays, but the three most important to you will be `items`, `redownload_urls`, and `tracklists`, and a Boolean, `more_available`, which should be false if your endpoint request is structured properly.
+Here's the fun stuff. The Item endpoint contains multiple data arrays, but the three most important to you will be `items`, `redownload_urls`, and `tracklists`. A Boolean `more_available` is also returned as true if not all items in your collection are returned. This only happens when you specify the count parameter as less than the total number of items in your collection.
 
 `items` is a list of JSON objects containing the information that represents an item. Everything from the id, title, and the artist, to the number of streamable tracks and the date it was purchased.
 
