@@ -18,4 +18,4 @@ In JSON data, the item type can be represented in one of two String formats, an 
 | Track   | Similar formatting to an album, with most data nullified.                                                                                 | "t"<br>"track"      |
 | Package | To simplify it, this is a Track or Album with merchandise.<br>An example of this would be a vinyl purchase which includes online album access. | "p"<br>"package"    |
 
-For an exhaustive breakdown of the data contained in each item type, head to [API Data and Its Usages](https://github.com/har-nick/troupetent/wiki/API-Data-and-Its-Usages).
+For an exhaustive breakdown of the data contained in each item type, head to [API Data and Its Usages](https://github.com/har-nick/bandcamp-api-docs/wiki/API-Data-and-Its-Usages).
