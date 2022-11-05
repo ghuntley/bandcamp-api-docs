@@ -20,7 +20,7 @@ Here's the fun stuff. The Item endpoint contains multiple data arrays, but the t
 
 `items` is a list of JSON objects containing the information that represents an item. Everything from the id, title, and the artist, to the number of streamable tracks and the date it was purchased.
 
-`redownload_urls` is String Map containing the URL to download the relevant item.
+`redownload_urls` is String Map containing the URL to download the relevant item. See [Downloading Items](https://github.com/har-nick/bandcamp-api-docs/wiki/Downloading-Items) before you get giddy.
 
 `tracklists` is another String Map containing lists of JSON objects representing each track. This includes the url to stream the track in mp3v0 format.
 
