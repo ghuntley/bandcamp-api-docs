@@ -39,3 +39,7 @@ Let's break those parameters down!
 | sitem_id  |                                                                                                                                                                              | Yes. Use `sale_item_id`   |
 
 I've looked through every desktop web request and was unable to find the signature for anything but the already given mp3-v0 encoding from `redownload_urls`. Maybe there's a way out there, but it seems unlikely.
+
+## Notes
+
+When parsing the direct download links, the `&amp;` can be replaced with an `&` (ampersand) if necessary.
