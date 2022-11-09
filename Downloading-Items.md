@@ -4,7 +4,7 @@ This section covers downloading purchased items only. Streamed "public" tracks t
 
 ## A note on `redownload_urls`
 
-As mentioned in the notes of [https://github.com/har-nick/bandcamp-api-docs/wiki/API-Data-and-Its-Usages/](API Data and Its Usages), the links given in the redownload_urls map are indirect. As far as I am able to tell, you cannot avoid going to this website. Specific pieces in the response data on this page are not provided by any API endpoints, and cannot be generated.
+As mentioned in the notes of [API Data and Its Usages](https://github.com/har-nick/bandcamp-api-docs/wiki/API-Data-and-Its-Usages/), the links given in the `redownload_urls` map are indirect. As far as I am able to tell, you cannot avoid going to this page. Specific pieces in the response data on this page are not provided by any API endpoints, and cannot be generated or sourced from existing data.
 
 ## An Initial Look-See
 
