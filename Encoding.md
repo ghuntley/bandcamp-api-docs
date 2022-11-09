@@ -8,7 +8,7 @@ Just to note, while I am a small audiophile, I have no experience as a musician 
 
 There are (as of the time of publishing) 8 available encoding formats from Bandcamp's download menu.
 
-In ascending order of relative size:
+In ascending order of (estimated) size:
 
 | Encoding |           Full Name           | Open Source | Lossless | API Representation |
 |:--------:|:-----------------------------:|:-----------:|:--------:|:------------------:|
